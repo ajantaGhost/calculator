@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:aliceblue;
+}
+.container{
+    padding: 10px 10px 30px 10px;
+    border: none;
+    border-radius: 20px;
+    height: 80vh;
+    width: 17vw;
+    display: grid; 
+    margin-top: 70px;
+    margin-left: 400px;
+    background-color: white;
+} 
+.header{
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.signals{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#tower{
+    width: 20px;
+    height: auto;
+}
+#wifi{
+    width: 20px;
+    height: auto;
+}
+#battery{
+    width: 20px;
+    height: auto;
+}
+.mode{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.mode #lightMode{
+    border-radius: 30px;
+    height: 20px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    background-color:white;
+    color: dodgerblue;
+    box-shadow: 0 1px 1px 1px  gainsboro;
+}
+.Calculator{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+}
+.Calculator button{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 3px;
+    box-shadow: 0 3px 3px 0 gainsboro;
+    cursor: pointer;
+}
+.Calculator input{
+    height: 60px;
+    width: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 2px rgb(229, 226, 226);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color:white;
+    cursor: pointer;
+}
+.btnOperator {
+    background-color: white;
+    color: dodgerblue;
+}
+.equal{
+    background-color: white;
+    color: dodgerblue;
+}
+.btnNumber{
+    background-color: white;
+    color: black;
+} 
